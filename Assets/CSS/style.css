@@ -1,0 +1,14 @@
+.nav {
+  list-style-type: none;
+  display: flex;
+  float: right;
+}
+
+.nav li {
+  padding: 5px;
+  margin: 10px;
+}
+
+.header {
+  background-color: grey;
+}
