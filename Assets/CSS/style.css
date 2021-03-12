@@ -9,9 +9,24 @@
   margin: 10px;
 }
 .header {
-  background-color: rgb(206, 135, 168);
+  background-color: #ce87a8;
   overflow: hidden;
 }
+
+.about-me-title {
+  text-align: center;
+  justify-content: center;
+}
+
+.education-title {
+  text-align: center;
+}
+
+.details {
+  width: 80%;
+  margin: 5% auto;
+}
+
 .projects-container {
   display: flex;
   flex-wrap: wrap;
