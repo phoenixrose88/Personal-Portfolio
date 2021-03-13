@@ -25,7 +25,8 @@ My personal portfolio, features advanced CSS and HTML techniques.
 To clone the project type the following as separate commands in your terminal:
 
 - `git clone` git@github.com:phoenixrose88/Personal-Portfolio.git
-- `cd homework_1`
+- `cd homeworks`
+- `cd Personal-Portfolio`
 - `code .`
 
 This should open the cloned project in VS code where one can examine the HTML and CSS and see the webpage live.
