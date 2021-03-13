@@ -2,6 +2,8 @@
 
 ## What we did
 
-We were tasked with creating a portfolio from scratch to showcase our skills and talents to employers.
+My personal portfolio, features advanced CSS and HTML techniques.
 
-When loading my webpage portfolio, one can see that the developer's name, recent photo, 'About Me', 'Projects' and 'Contact Me'
+- We were tasked with creating a portfolio from scratch to showcase our skills and talents to employers.
+
+- When loading my webpage portfolio, one can see subheadings such as 'About Me', 'Skills and education', 'Projects' and 'Contact Me' in the Navigation Menu.
