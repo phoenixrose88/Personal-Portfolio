@@ -14,6 +14,8 @@ My personal portfolio, features advanced CSS and HTML techniques.
 
 - You will also find that one is presented with a responsive layout that adapts to your viewport when resizing the page or viewing the site on various screens and devices.
 
+- The website also allows the mouse to hover over applications notifying the user that is able to be clicked on and thus the user is directed to that application in a new tab. This applies to all clickable links in the navigation bar, 'project' images and 'contact me' sections.
+
 ## Installation
 
 - Clone the Github project on to your local machine (C-drive)
