@@ -1,3 +1,10 @@
+.header {
+  background-color: #ce87a8;
+  overflow: hidden;
+}
+.header h1 {
+  text-align: center;
+}
 .nav-container {
   display: flex;
   flex-wrap: wrap;
@@ -8,43 +15,41 @@
   padding: 5px;
   margin: 10px;
 }
-.header {
-  background-color: #ce87a8;
-  overflow: hidden;
+.about-me-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-
-.about-me-title {
-  text-align: center;
-  justify-content: center;
+.about-me-container img {
+  width: 300px;
 }
-
 h2 {
   text-align: center;
   margin-top: 20px;
 }
-
 a {
   transition: transform 0.2s;
 }
-
 a :hover {
-  transform: scale(1.5);
+  transform: scale(1.05);
 }
 .details {
   width: 80%;
   margin: 5% auto;
 }
-
 .projects-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
 .card {
-  border: 1px solid red;
+  border-radius: 5px;
   width: 25%;
   margin-top: 20px;
+  box-shadow: 5px 5px 10px #959595;
+}
+.card:first-child {
+  width: 80%;
 }
 .card-image-container {
   padding: 20px;
@@ -61,15 +66,25 @@ a :hover {
 h1 {
   color: white;
 }
-
 .contact-me {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
   justify-content: space-evenly;
 }
-
 @media screen and (max-width: 768px) {
-  .nav-container {
+  .nav-container,
+  .about-me-container {
     flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .card:first-child {
+    width: 100%;
+  }
+  .about-me-image,
+  .about-me-info {
+    width: 100%;
   }
 }
