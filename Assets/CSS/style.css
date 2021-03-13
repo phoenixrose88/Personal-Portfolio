@@ -18,10 +18,18 @@
   justify-content: center;
 }
 
-.education-title {
+h2 {
   text-align: center;
+  margin-top: 20px;
 }
 
+a {
+  transition: transform 0.2s;
+}
+
+a :hover {
+  transform: scale(1.5);
+}
 .details {
   width: 80%;
   margin: 5% auto;
@@ -32,9 +40,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.projects-title {
-  text-align: center;
-}
+
 .card {
   border: 1px solid red;
   width: 25%;
@@ -55,6 +61,13 @@
 h1 {
   color: white;
 }
+
+.contact-me {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
 @media screen and (max-width: 768px) {
   .nav-container {
     flex-direction: column;
